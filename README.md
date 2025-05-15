@@ -29,12 +29,12 @@
 ## 🛠️ Setup Instructions
 
 1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/lecture-quiz-generator.git
-   cd lecture-quiz-generator
+   
+  	 git clone https://github.com/chiragtikekar/ExQUIZ ME.git
+  	 cd ExQUIZ ME
 
 2.**Install Dependencies**
-   ```bash
+   
   	 pip install -r requirements.txt
 
 3.**Set Up API Keys**
@@ -45,5 +45,5 @@
 	GEMINI_API_KEY=your_google_gemini_api_key
 
 4.**Run the App**
- ```bash
+ 
 	streamlit run app.py
