@@ -1,0 +1,86 @@
+/* style.css */
+/* Main container styling */
+.stApp {
+    background-color: #f5f7fa;
+    color: #2d3748;
+}
+
+/* Header styling */
+h1 {
+    color: #4f46e5;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 10px;
+}
+
+/* Button styling */
+.stButton>button {
+    background-color: #4f46e5;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-weight: 600;
+    border: none;
+    transition: all 0.3s;
+}
+
+.stButton>button:hover {
+    background-color: #4338ca;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* Secondary button (like Regenerate) */
+.stButton>button:last-child {
+    background-color: #f59e0b;
+}
+
+.stButton>button:last-child:hover {
+    background-color: #d97706;
+}
+
+/* Video player styling */
+.stVideo {
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* Quiz questions styling */
+h3 {
+    color: #4f46e5;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+/* Answer options styling */
+li {
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: #edf2f7;
+    border-radius: 6px;
+    list-style-type: none;
+}
+
+/* Correct answer highlight */
+strong {
+    color: #10b981;
+    font-size: 1.1em;
+}
+
+/* Spinner animation */
+.stSpinner>div {
+    border-color: #4f46e5 transparent transparent transparent;
+}
+
+/* Expander (transcript box) */
+.stExpander {
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    margin: 16px 0;
+}
+
+.stExpander .st-emotion-cache-1q7spjk {
+    background-color: #f8fafc;
+}
+
+/* Progress bar */
+.stProgress
